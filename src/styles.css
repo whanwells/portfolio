@@ -50,6 +50,10 @@
   a {
     @apply underline;
   }
+
+  a:hover {
+    @apply text-indigo-600;
+  }
 }
 
 @layer components {
