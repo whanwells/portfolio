@@ -1,0 +1,26 @@
+[
+  {
+    "name": "apics-puppet",
+    "description": "Puppet module for managing Oracle API Platform gateway nodes.",
+    "links": [
+      {
+        "label": "Puppet Forge",
+        "href": "https://forge.puppet.com/modules/whanwells/apics"
+      },
+      {
+        "label": "GitHub Repo",
+        "href": "https://github.com/whanwells/apics-puppet"
+      }
+    ]
+  },
+  {
+    "name": "smallsh",
+    "description": "A simple Linux shell written in C. Operating Systems portfolio project.",
+    "links": [
+      {
+        "label": "GitHub Repo",
+        "href": "https://github.com/whanwells/smallsh"
+      }
+    ]
+  }
+]
