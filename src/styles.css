@@ -16,7 +16,7 @@
   }
 
   h3 {
-    @apply mb-1 text-purple-700 font-bold;
+    @apply mb-1 font-bold;
   }
 
   header h2 {
