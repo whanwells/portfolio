@@ -1,6 +1,6 @@
 [
   {
-    "name": "apics-puppet",
+    "name": "apics",
     "description": "Puppet module for managing Oracle API Platform gateway nodes.",
     "links": [
       {
