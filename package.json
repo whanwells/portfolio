@@ -3,6 +3,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production concurrently \"eleventy\" \"postcss src/styles.css -o _site/styles.css\"",
     "clean": "rimraf _site",
+    "lint": "eslint .",
     "start": "concurrently -k \"postcss -w src/styles.css -o _site/styles.css\" \"eleventy --serve\""
   },
   "devDependencies": {
@@ -10,6 +11,7 @@
     "autoprefixer": "^10.2.6",
     "concurrently": "^6.2.0",
     "cross-env": "^7.0.3",
+    "eslint": "^7.29.0",
     "postcss": "^8.3.5",
     "postcss-cli": "^8.3.1",
     "rimraf": "^3.0.2",
